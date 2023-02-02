@@ -8,7 +8,6 @@
 
 
     val op  = builder.result()
-    var res = 0
     var d   = mutable.Stack[Int]()
 
     for (i <- tokens) i match {
